@@ -5,6 +5,5 @@ import jakarta.persistence.Id
 
 @Entity
 class User {
-    @Id
-    var id: Long? = null
+    @Id var id: Long? = null
 }
